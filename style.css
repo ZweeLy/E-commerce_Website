@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+    background-color: #0b0c0c;
+}
+
+nav{
+    display: flex;   
+}
+
+.logo {
+    display: flex; 
+    align-items: center;   
+}
+ 
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    height: 60px;
+    align-items: center;
+}
+
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+    font-family: 'Borel' , cursive;
+    
+}
+
+nav ul li a {
+    color: rgb(226, 223, 223);
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+
+}
+.container{
+    min-height: calc(100vh - 60px - 12vh);
+}
+
+.unsplash{
+    width: auto;
+    margin-left: 20px;
+    margin-top: 12px;  
+    overflow: hidden;  
+}
+
+.card{
+    max-width: 91vw;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 50px;
+} 
+
+.search{
+    display: flex;
+    align-items: center;
+
+}
+
+.search input {
+    width: 493px;
+    height: 23px;
+    border-radius: 5px;
+    margin: 0 12px;
+    padding: 0 12px;
+}
+
+.btn:hover {
+    background-color: rgb(52, 171, 171);
+}
+
+
+.my-2{
+    font-family: 'Borel';
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+    margin-bottom: 12px;
+    
+}
+
+
+
+footer{
+
+    background-color:  #080808 ;
+    color: white;
+    height: 12vh;
+    font-family: 'Borel', cursive;
+}

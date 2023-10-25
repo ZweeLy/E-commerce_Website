@@ -1,0 +1,16 @@
+.flex-all-center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: rgb(170, 191, 191) ;
+    cursor: pointer;
+    padding: 3px 12px;
+    color: black;
+    border-radius: 4px;
+    font-family: 'Latin';
+    font-size: large;
+}
